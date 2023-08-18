@@ -1,0 +1,105 @@
+/* Reset some default styles */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a futuristic background color */
+body {
+  background-color: #13161f;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+/* Style the header */
+header {
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Style the main content */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+/* Style the search section */
+.search-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#searchInput {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+#searchButton {
+  padding: 0.5rem 1rem;
+  background-color: #24a7f3;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+  background-color: #156cb3;
+}
+
+/* Style the results section */
+.results-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: none; /* Hide result div elements initially */
+}
+
+.result:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.result1 {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.result1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ethereum-logo {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.ethereum-logo img {
+  width: 100px; 
+  height: auto;
+}
